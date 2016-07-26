@@ -1,11 +1,12 @@
-= Currency (CB RF) and Weather Widget =
+# Currency (CB RF) and Weather Widget #
 
-== Description ==
-Simple WordPress widget for display weather for selected city (with dynamic weather icon) from OpenWeatherMap, and USD-EUR currency from Central Bank of Russia.
+## Description ##
+Simple WordPress widget for displaying weather for selected city (with dynamical weather icon) from OpenWeatherMap, and USD-EUR currency from Central Bank of Russia.
 
-== CSS Customization ==
+## CSS Customization ##
 HTML representation of widget has next structure:
 
+```html
 -- div#currency-and-weather
  | -- div#weather
  |  | -- img#weather-icon.weather-details
@@ -21,11 +22,12 @@ HTML representation of widget has next structure:
  |  |  | -- div.currency-name
  |  |  | -- div.currency-value
  |  |  | -- div.currency-dynamic
+ ```
 
 How you see, all elements are fully customizable.
 DON'T edit the plugin CSS file. Write your own styles in custom CSS file (with native WordPress "Custom styles" function, for example).
 
-== TODO ==
+## TODO ##
  * Add caching time setting
  * Add "Select currencies" ability
  * Translate widget to English (with native text_domain entries)
