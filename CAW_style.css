@@ -1,0 +1,13 @@
+/* Styles for Currency and Weather plugin */
+/* Don't touch this! Set your custom rules in theme's "custom.css" file */
+
+#currency-and-weather {
+    max-width: inherit;
+}
+
+#currency, #weather {
+    display: inline;
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
